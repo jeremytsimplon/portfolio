@@ -81,6 +81,11 @@ nav a:hover, nav a:focus {
   border-right: 2px solid white;
 }
 
+.page_active {
+color:rgb(29, 43, 77);
+font-weight: bold;
+}
+
 /****************************************************************/
 
 
