@@ -26,6 +26,21 @@ header p {
   margin-top: 0;
 }
 
+header h1 a, header h1 a:visited {
+  text-decoration: none;
+  color : white;
+  transition: 1s;
+}
+
+header h1 a:hover {
+  color : black;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px inset white;
+  padding-left: 5%;
+  padding-right: 5%;
+  transition: 1.5s;
+}
+
 header h1{
   margin-bottom: -2px;
 }
@@ -52,6 +67,7 @@ nav a, nav a:visited {
 }
 
 
+
 nav a:hover, nav a:focus {
   text-decoration: underline;
   color:rgb(9, 25, 43);
@@ -64,7 +80,6 @@ nav a:hover, nav a:focus {
   border-left: 2px solid white;
   border-right: 2px solid white;
 }
-
 
 /****************************************************************/
 
@@ -149,11 +164,16 @@ footer p {
   width: 5%;
 }
 
+
+/***********************mise en page Contacts********************/
+
 .contacts a, .contacts a:visited {
   color:black;
 }
 
-
+.contacts {
+  margin-left: 30%;
+}
 /****************************************************************/
 
 
@@ -161,8 +181,9 @@ footer p {
 /*************mise en forme du portefolio************************/
 #folio {
   width: 100%;
+  margin-top: 3%;
 }
-
+/** MOUHAHAHAHA JE SUIS UN PIRATE !!!!! **/
 figure {
   width: 25%;
   display: inline-block;
@@ -171,7 +192,6 @@ figure {
 
 .folio_img {
   width: 100%;
-  margin-top: 3%;
 }
 
 .wrap {
@@ -180,15 +200,19 @@ figure {
   text-align: center;
 }
 
-/*transition des images*/
+
 figcaption {
   background-color:rgba(0, 0, 0, 0.25);
   border-radius: 0 0 4px 4px;
+  margin-top: -2%;
 }
 
+
+/*transition des images*/
 figure:hover {
   width :50%;
   transition : 1s;
   margin: auto;
+  box-shadow: 2px 2px 2px black;
 }
 /****************************************************************/
