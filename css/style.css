@@ -1,0 +1,194 @@
+/*Police personnalisée*/
+
+@font-face {
+  font-family: 'titilium';
+  src: url("../font/titilium.ttf");
+}
+
+/********************mise en forme du body***********************/
+
+body {
+  font-family: 'titilium', sans-serif;
+}
+
+/****************************************************************/
+
+
+/******************************header & nav**********************/
+
+header {
+  width: 100%;
+  background-color: rgb(28, 78, 226);
+  text-align: center;
+  color: white;
+}
+header p {
+  margin-top: 0;
+}
+
+header h1{
+  margin-bottom: -2px;
+}
+
+/* mise en forme du menu nav */
+
+nav {
+  text-align: center;
+  background-color: rgb(54, 124, 217);
+  padding: 1% 0 1% 0;
+}
+
+#mise_en_forme {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* animation du menu de navigation */
+
+nav a, nav a:visited {
+  text-decoration: none;
+  transition: 0.5s;
+  color: white;
+}
+
+
+nav a:hover, nav a:focus {
+  text-decoration: underline;
+  color:rgb(9, 25, 43);
+  padding-right: 4%;
+  padding-left: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  transition: 1s;
+  font-size: 1.2em;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+
+/****************************************************************/
+
+
+
+
+
+
+/****************************section*****************************/
+
+/* mise en forme de l'image */
+#avatar {
+  width: 15%;
+  border-radius: 100%;
+  margin: 3% 42.5% 5% 42.5%;
+  transition: 1s;
+}
+
+#avatar:hover {
+  border-radius: 5%;
+  transition:0.5s;
+  width: 30%;
+  margin-left: 35%;
+  margin-right:35%;
+}
+
+/* mise en forme de la section*/
+section h2, section div {
+  margin : 0 20% 0 20%;
+}
+
+#about_me {
+  padding-top: 5%;
+}
+
+/****************************************************************/
+
+/*****************************footer*****************************/
+
+/* mise en forme des images */
+
+footer {
+  clear: both;
+}
+
+footer img {
+  width: 15%;
+}
+
+/* placement des images */
+#placement {
+  margin: 5% 45% 0 45%;
+}
+
+/* placement du texte */
+
+footer p {
+  text-align: center;
+  font-size: small;
+  margin-left: -5%;
+}
+
+
+/****************************************************************/
+
+/***********************mise en page About Me********************/
+
+#about_me{
+  margin : 0 20% 0 20%;
+}
+
+#about_me h2 {
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+#about_me p {
+  margin-top: 0;
+}
+
+.img_aboutme {
+  width: 5%;
+}
+
+.contacts a, .contacts a:visited {
+  color:black;
+}
+
+
+/****************************************************************/
+
+
+
+/*************mise en forme du portefolio************************/
+#folio {
+  width: 100%;
+}
+
+figure {
+  width: 25%;
+  display: inline-block;
+  transition: 1s;
+}
+
+.folio_img {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.wrap {
+  margin : auto ;
+  transition: 1s;
+  text-align: center;
+}
+
+/*transition des images*/
+figcaption {
+  background-color:rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 4px 4px;
+}
+
+figure:hover {
+  width :50%;
+  transition : 1s;
+  margin: auto;
+}
+/****************************************************************/
