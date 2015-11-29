@@ -201,7 +201,7 @@ figure {
 
 .wrap {
   margin : auto ;
-  transition: 1s;
+  transition: 0.5s;
   text-align: center;
 }
 
@@ -216,7 +216,8 @@ figcaption {
 /*transition des images*/
 figure:hover {
   width :50%;
-  transition : 1s;
+  transform: scale(1);
+  transition: 0.5s;
   margin: auto;
   box-shadow: 2px 2px 2px black;
 }
